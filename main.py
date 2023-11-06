@@ -71,7 +71,7 @@ def wyswietl_wyniki(czyje="wszystkie"):
                 print (wyniki, ": ", lista_wynikow[gracz][wyniki])
     else:
         print(f"wyniki {czyje}:")
-        for wyniki in lista_wynikow[czyje]:
+        for wyniki in lista_wynikow[czyje]:/
                 print (wyniki, ": ->", lista_wynikow[czyje][wyniki])
 
 while True:
