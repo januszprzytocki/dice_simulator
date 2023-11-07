@@ -104,4 +104,4 @@ while True:
 
     #rzut_kostkami (gracz2)
 
-    if input("grasz dalej: ?").upper()== "N": break
+    if input("grasz dalej: ? T/N").upper()== "N": break
